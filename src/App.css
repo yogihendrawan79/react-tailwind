@@ -1,0 +1,12 @@
+body {
+  overflow-x: hidden;
+}
+
+#bidang,
+#ruangan {
+  background-color: #f1f1f1;
+}
+
+#home {
+  background-color: #1e1e1e;
+}
