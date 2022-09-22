@@ -138,7 +138,7 @@ function App() {
       </section>
 
       {/* Bidang Rnd Section */}
-      <section id="bidang" className="pt-36 pb-16 w-screen inset-0">
+      <section id="bidang" className="pt-36 pb-1 w-screen inset-0">
         <div className="container">
           <div className="w-full px-4">
             <div className="mx-auto mb-16 max-w-3xl text-center">
@@ -196,67 +196,87 @@ function App() {
             </div>
             <div className="flex justify-center items-center">
               <div className="grid grid-cols-3 gap-5">
-                <div className="wrapper antialiased">
+                <div className="z-20 wrapper antialiased">
                   <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="block px-28 py-14 border border-gray-200"
+                      className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
-                    ></div>
+                    >
+                      <img
+                        src={bgImage}
+                        alt="Gambar Product"
+                        style={{ width: "300px" }}
+                      />
+                    </div>
                     <div className="relative px-4 -mt-16">
-                      <div
-                        className="px-20 py-14 mb-5"
-                        style={{
-                          background: "#D3D3D3",
-                        }}
-                      ></div>
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                        <h3 className="-px-10 text-xl text-center font-semibold mt-3">
+                          Robotic
+                        </h3>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="wrapper antialiased">
+                <div className="z-20 wrapper antialiased">
                   <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="block px-28 py-14 border border-gray-200"
+                      className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
-                    ></div>
+                    >
+                      <img
+                        src={bgImage}
+                        alt="Gambar Product"
+                        style={{ width: "300px" }}
+                      />
+                    </div>
                     <div className="relative px-4 -mt-16">
-                      <div
-                        className="px-20 py-14 mb-5"
-                        style={{
-                          background: "#D3D3D3",
-                        }}
-                      ></div>
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                        <h3 className="-px-10 text-xl text-center font-semibold mt-3">
+                          Robotic
+                        </h3>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="wrapper antialiased">
+                <div className="z-20 wrapper antialiased">
                   <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="block px-28 py-14 border border-gray-200"
+                      className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
-                    ></div>
+                    >
+                      <img
+                        src={bgImage}
+                        alt="Gambar Product"
+                        style={{ width: "300px" }}
+                      />
+                    </div>
                     <div className="relative px-4 -mt-16">
-                      <div
-                        className="px-20 py-14 mb-5"
-                        style={{
-                          background: "#D3D3D3",
-                        }}
-                      ></div>
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                        <h3 className="-px-10 text-xl text-center font-semibold mt-3">
+                          Robotic
+                        </h3>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="wrapper antialiased">
+                <div className="z-20 wrapper antialiased">
                   <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="block px-28 py-14 border border-gray-200"
+                      className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
-                    ></div>
+                    >
+                      <img
+                        src={bgImage}
+                        alt="Gambar Product"
+                        style={{ width: "300px" }}
+                      />
+                    </div>
                     <div className="relative px-4 -mt-16">
-                      <div
-                        className="px-20 py-14 mb-5"
-                        style={{
-                          background: "#D3D3D3",
-                        }}
-                      ></div>
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                        <h3 className="-px-10 text-xl text-center font-semibold mt-3">
+                          Robotic
+                        </h3>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -310,67 +330,87 @@ function App() {
             </div>
             <div className="flex justify-center items-center">
               <div className="grid grid-cols-3 gap-5">
-                <div className="wrapper antialiased">
+                <div className="z-20 wrapper antialiased">
                   <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="block px-28 py-14 border border-gray-200"
+                      className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
-                    ></div>
+                    >
+                      <img
+                        src={bgImage}
+                        alt="Gambar Product"
+                        style={{ width: "300px" }}
+                      />
+                    </div>
                     <div className="relative px-4 -mt-16">
-                      <div
-                        className="px-20 py-14 mb-5"
-                        style={{
-                          background: "#D3D3D3",
-                        }}
-                      ></div>
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                        <h3 className="-px-10 text-xl text-center font-semibold mt-3">
+                          Metaverse
+                        </h3>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="wrapper antialiased">
+                <div className="z-20 wrapper antialiased">
                   <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="block px-28 py-14 border border-gray-200"
+                      className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
-                    ></div>
+                    >
+                      <img
+                        src={bgImage}
+                        alt="Gambar Product"
+                        style={{ width: "300px" }}
+                      />
+                    </div>
                     <div className="relative px-4 -mt-16">
-                      <div
-                        className="px-20 py-14 mb-5"
-                        style={{
-                          background: "#D3D3D3",
-                        }}
-                      ></div>
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                        <h3 className="-px-10 text-xl text-center font-semibold mt-3">
+                          3D Animation
+                        </h3>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="wrapper antialiased">
+                <div className="z-20 wrapper antialiased">
                   <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="block px-28 py-14 border border-gray-200"
+                      className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
-                    ></div>
+                    >
+                      <img
+                        src={bgImage}
+                        alt="Gambar Product"
+                        style={{ width: "300px" }}
+                      />
+                    </div>
                     <div className="relative px-4 -mt-16">
-                      <div
-                        className="px-20 py-14 mb-5"
-                        style={{
-                          background: "#D3D3D3",
-                        }}
-                      ></div>
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                        <h3 className="-px-10 text-xl text-center font-semibold mt-3">
+                          Website
+                        </h3>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="wrapper antialiased">
+                <div className="z-20 wrapper antialiased">
                   <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="block px-28 py-14 border border-gray-200"
+                      className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
-                    ></div>
+                    >
+                      <img
+                        src={bgImage}
+                        alt="Gambar Product"
+                        style={{ width: "300px" }}
+                      />
+                    </div>
                     <div className="relative px-4 -mt-16">
-                      <div
-                        className="px-20 py-14 mb-5"
-                        style={{
-                          background: "#D3D3D3",
-                        }}
-                      ></div>
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                        <h3 className="-px-10 text-xl text-center font-semibold mt-3">
+                          UI Design
+                        </h3>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -381,7 +421,7 @@ function App() {
       </section>
 
       {/* Ruangan RnD Section */}
-      <section id="ruangan" className="pt-36 pb-96 w-screen inset-0">
+      <section id="ruangan" className="pt-1 pb-96 w-screen inset-0">
         <div className="container">
           <div>
             <div className="z-10 absolute h-screen">
@@ -413,7 +453,7 @@ function App() {
                     Ruangan Lorem 1
                   </h1>
                   <h3
-                    className="mt-3 font-base max-w-sm ml-3 mb-3 text-justify text-lg tracking-wide"
+                    className="mt-5 font-base max-w-sm ml-3 mb-3 text-justify text-lg tracking-wide"
                     style={{ color: "#000000" }}
                   >
                     Lorem Ipsum is simply dummy text of the printing and
@@ -465,7 +505,7 @@ function App() {
                     Ruangan Lorem 3
                   </h1>
                   <h3
-                    className="mt-3 font-base max-w-sm ml-3 mb-3 text-justify text-lg tracking-wide"
+                    className="mt-5 font-base max-w-sm ml-3 mb-3 text-justify text-lg tracking-wide"
                     style={{ color: "#000000" }}
                   >
                     Lorem Ipsum is simply dummy text of the printing and
