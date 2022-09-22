@@ -1,4 +1,6 @@
 import bgImage from "./assets/imgContent.jpg";
+import aksen1 from "./assets/aksen1.svg";
+import aksen2 from "./assets/aksen2.svg";
 import "./App.css";
 
 function App() {
@@ -56,7 +58,7 @@ function App() {
       {/* Hero Section */}
       <section
         id="home"
-        className="pb-80 lg:pt-60 lg:pl-36 inset-0"
+        className="h-screen lg:pt-60 lg:pl-36 inset-0"
         style={{
           backgroundColor: "#1e1e1e",
         }}
@@ -85,7 +87,7 @@ function App() {
           </svg>
         </div>
         <div className="z-10 absolute top-0 right-0 contrast-50">
-          <img src={bgImage} alt="Gambar" style={{ width: "1349px" }} />
+          <img src={bgImage} alt="Gambar" style={{ width: "1080px" }} />
         </div>
         <div className="container">
           <div className="flex flex-wrap">
@@ -174,87 +176,88 @@ function App() {
                 dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah Lorem
                 ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah
                 Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya
-                yah Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah
-                isinya yah Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu
-                ajah isinya yah Lorem ipsum dulu ajah isinya yah Lorem Ipsum
-                dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah Lorem
-                ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah
+                yah
               </h3>
             </div>
           </div>
-          <div className="w-full px-4">
-            <div className="mx-auto mt-48 mb-16 max-w-xl text-center">
-              <h4
-                className="mb-28 text-5xl font-base tracking-wide"
-                style={{ color: "#000000" }}
-              >
-                Product / Portfolio
-              </h4>
+          <div>
+            <div className="z-10 absolute h-screen">
+              <img src={aksen1} alt="GambarAksen1" />
             </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="grid grid-cols-3 gap-5">
-              <div className="wrapper antialiased">
-                <div className="hover:-translate-y-3 hover:duration-300">
-                  <div
-                    className="block px-28 py-14 border border-gray-200"
-                    style={{ background: "#ADADAD" }}
-                  ></div>
-                  <div className="relative px-4 -mt-16">
+            <div className="w-full px-4">
+              <div className="mx-auto mt-48 mb-16 max-w-xl text-center">
+                <h4
+                  className="mb-28 text-5xl font-base tracking-wide"
+                  style={{ color: "#000000" }}
+                >
+                  Product / Portfolio
+                </h4>
+              </div>
+            </div>
+            <div className="flex justify-center items-center">
+              <div className="grid grid-cols-3 gap-5">
+                <div className="wrapper antialiased">
+                  <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="px-20 py-14 mb-5"
-                      style={{
-                        background: "#D3D3D3",
-                      }}
+                      className="block px-28 py-14 border border-gray-200"
+                      style={{ background: "#ADADAD" }}
                     ></div>
+                    <div className="relative px-4 -mt-16">
+                      <div
+                        className="px-20 py-14 mb-5"
+                        style={{
+                          background: "#D3D3D3",
+                        }}
+                      ></div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="wrapper antialiased">
-                <div className="hover:-translate-y-3 hover:duration-300">
-                  <div
-                    className="block px-28 py-14 border border-gray-200"
-                    style={{ background: "#ADADAD" }}
-                  ></div>
-                  <div className="relative px-4 -mt-16">
+                <div className="wrapper antialiased">
+                  <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="px-20 py-14 mb-5"
-                      style={{
-                        background: "#D3D3D3",
-                      }}
+                      className="block px-28 py-14 border border-gray-200"
+                      style={{ background: "#ADADAD" }}
                     ></div>
+                    <div className="relative px-4 -mt-16">
+                      <div
+                        className="px-20 py-14 mb-5"
+                        style={{
+                          background: "#D3D3D3",
+                        }}
+                      ></div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="wrapper antialiased">
-                <div className="hover:-translate-y-3 hover:duration-300">
-                  <div
-                    className="block px-28 py-14 border border-gray-200"
-                    style={{ background: "#ADADAD" }}
-                  ></div>
-                  <div className="relative px-4 -mt-16">
+                <div className="wrapper antialiased">
+                  <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="px-20 py-14 mb-5"
-                      style={{
-                        background: "#D3D3D3",
-                      }}
+                      className="block px-28 py-14 border border-gray-200"
+                      style={{ background: "#ADADAD" }}
                     ></div>
+                    <div className="relative px-4 -mt-16">
+                      <div
+                        className="px-20 py-14 mb-5"
+                        style={{
+                          background: "#D3D3D3",
+                        }}
+                      ></div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="wrapper antialiased">
-                <div className="hover:-translate-y-3 hover:duration-300">
-                  <div
-                    className="block px-28 py-14 border border-gray-200"
-                    style={{ background: "#ADADAD" }}
-                  ></div>
-                  <div className="relative px-4 -mt-16">
+                <div className="wrapper antialiased">
+                  <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="px-20 py-14 mb-5"
-                      style={{
-                        background: "#D3D3D3",
-                      }}
+                      className="block px-28 py-14 border border-gray-200"
+                      style={{ background: "#ADADAD" }}
                     ></div>
+                    <div className="relative px-4 -mt-16">
+                      <div
+                        className="px-20 py-14 mb-5"
+                        style={{
+                          background: "#D3D3D3",
+                        }}
+                      ></div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -280,10 +283,7 @@ function App() {
                 ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah
                 Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya
                 yah Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah
-                isinya yah Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu
-                ajah isinya yah Lorem ipsum dulu ajah isinya yah Lorem Ipsum
-                dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah Lorem
-                ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah
+                isinya yah Lorem ipsum dulu ajah isinya yah
               </h3>
             </div>
             <div className="w-full self-end px-4 lg:w-1/2">
@@ -294,79 +294,84 @@ function App() {
               />
             </div>
           </div>
-          <div className="w-full px-4">
-            <div className="mx-auto mt-48 mb-16 max-w-xl text-center">
-              <h4
-                className="mb-28 text-5xl font-base tracking-wide"
-                style={{ color: "#000000" }}
-              >
-                Product / Portfolio
-              </h4>
+          <div>
+            <div className="z-10 absolute h-screen">
+              <img src={aksen1} alt="gambar" />
             </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="grid grid-cols-3 gap-5">
-              <div className="wrapper antialiased">
-                <div className="hover:-translate-y-3 hover:duration-300">
-                  <div
-                    className="block px-28 py-14 border border-gray-200"
-                    style={{ background: "#ADADAD" }}
-                  ></div>
-                  <div className="relative px-4 -mt-16">
+            <div className="w-full px-4">
+              <div className="mx-auto mt-48 mb-16 max-w-xl text-center">
+                <h4
+                  className="mb-28 text-5xl font-base tracking-wide"
+                  style={{ color: "#000000" }}
+                >
+                  Product / Portfolio
+                </h4>
+              </div>
+            </div>
+            <div className="flex justify-center items-center">
+              <div className="grid grid-cols-3 gap-5">
+                <div className="wrapper antialiased">
+                  <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="px-20 py-14 mb-5"
-                      style={{
-                        background: "#D3D3D3",
-                      }}
+                      className="block px-28 py-14 border border-gray-200"
+                      style={{ background: "#ADADAD" }}
                     ></div>
+                    <div className="relative px-4 -mt-16">
+                      <div
+                        className="px-20 py-14 mb-5"
+                        style={{
+                          background: "#D3D3D3",
+                        }}
+                      ></div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="wrapper antialiased">
-                <div className="hover:-translate-y-3 hover:duration-300">
-                  <div
-                    className="block px-28 py-14 border border-gray-200"
-                    style={{ background: "#ADADAD" }}
-                  ></div>
-                  <div className="relative px-4 -mt-16">
+                <div className="wrapper antialiased">
+                  <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="px-20 py-14 mb-5"
-                      style={{
-                        background: "#D3D3D3",
-                      }}
+                      className="block px-28 py-14 border border-gray-200"
+                      style={{ background: "#ADADAD" }}
                     ></div>
+                    <div className="relative px-4 -mt-16">
+                      <div
+                        className="px-20 py-14 mb-5"
+                        style={{
+                          background: "#D3D3D3",
+                        }}
+                      ></div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="wrapper antialiased">
-                <div className="hover:-translate-y-3 hover:duration-300">
-                  <div
-                    className="block px-28 py-14 border border-gray-200"
-                    style={{ background: "#ADADAD" }}
-                  ></div>
-                  <div className="relative px-4 -mt-16">
+                <div className="wrapper antialiased">
+                  <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="px-20 py-14 mb-5"
-                      style={{
-                        background: "#D3D3D3",
-                      }}
+                      className="block px-28 py-14 border border-gray-200"
+                      style={{ background: "#ADADAD" }}
                     ></div>
+                    <div className="relative px-4 -mt-16">
+                      <div
+                        className="px-20 py-14 mb-5"
+                        style={{
+                          background: "#D3D3D3",
+                        }}
+                      ></div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="wrapper antialiased">
-                <div className="hover:-translate-y-3 hover:duration-300">
-                  <div
-                    className="block px-28 py-14 border border-gray-200"
-                    style={{ background: "#ADADAD" }}
-                  ></div>
-                  <div className="relative px-4 -mt-16">
+                <div className="wrapper antialiased">
+                  <div className="hover:-translate-y-3 hover:duration-300">
                     <div
-                      className="px-20 py-14 mb-5"
-                      style={{
-                        background: "#D3D3D3",
-                      }}
+                      className="block px-28 py-14 border border-gray-200"
+                      style={{ background: "#ADADAD" }}
                     ></div>
+                    <div className="relative px-4 -mt-16">
+                      <div
+                        className="px-20 py-14 mb-5"
+                        style={{
+                          background: "#D3D3D3",
+                        }}
+                      ></div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -376,58 +381,39 @@ function App() {
       </section>
 
       {/* Ruangan RnD Section */}
-      <section id="ruangan" className="pt-36 pb-32 w-screen inset-0">
+      <section id="ruangan" className="pt-36 pb-96 w-screen inset-0">
         <div className="container">
-          <div className="w-full px-4">
-            <div className="mx-auto mb-16 max-w-3xl text-center">
-              <h4
-                className="mb-56 mt-96 text-5xl font-base tracking-wide"
-                style={{ color: "#000000" }}
-              >
-                Ruangan Ruangan RnD
-              </h4>
+          <div>
+            <div className="z-10 absolute h-screen">
+              <img src={aksen1} alt="GambarAksen1" />
+              <img src={aksen2} alt="GambarAksen2" />
+              <img src={aksen1} alt="GambarAksen1" />
+              <img src={aksen2} alt="GambarAksen2" />
             </div>
-            <div className="flex flex-wrap">
-              <div className="w-full self-center px-4 mt-20 lg:w-1/2">
-                <img
-                  src={bgImage}
-                  className="bg-cover ml-5 bg-center rounded-lg shadow-xl hover:-translate-y-3 hover:duration-300"
-                  alt="ImageContent"
-                />
-                <h1
-                  className="font-base text-4xl tracking-wide ml-5 mt-5 mb-3"
+            <div className="w-full px-4">
+              <div className="mx-auto mb-16 max-w-3xl text-center">
+                <h4
+                  className="mb-56 z-20 mt-96 ml-10 text-5xl font-base tracking-wide"
                   style={{ color: "#000000" }}
                 >
-                  Ruangan Lorem 1
-                </h1>
-                <h3
-                  className="mt-3 font-base max-w-sm ml-5 text-justify text-lg tracking-wide"
-                  style={{ color: "#000000" }}
-                >
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
-                </h3>
+                  Ruangan Ruangan RnD
+                </h4>
               </div>
-            </div>
-            <div className="flex justify-end">
-              <div className="w-full self-end px-4 mt-20 lg:w-1/2">
-                <img
-                  src={bgImage}
-                  className="bg-cover ml-5 bg-center rounded-lg shadow-xl hover:-translate-y-3 hover:duration-300"
-                  alt="ImageContent"
-                />
-                <h1
-                  className="font-base text-4xl text-right tracking-wide ml-5 mt-5 mb-3"
-                  style={{ color: "#000000" }}
-                >
-                  Ruangan Lorem 2
-                </h1>
-                <div className="flex justify-end place-items-end">
+              <div className="flex flex-wrap">
+                <div className="w-full z-20 self-center -mt-24 lg:w-1/2 ml-5 border border-gray-200 bg-white shadow-xl rounded-lg  hover:-translate-y-3 hover:duration-300">
+                  <img
+                    src={bgImage}
+                    className="bg-cover bg-center w-full shadow-xl"
+                    alt="ImageContent"
+                  />
+                  <h1
+                    className="font-base text-4xl ml-3 tracking-wide mt-5 mb-3"
+                    style={{ color: "#000000" }}
+                  >
+                    Ruangan Lorem 1
+                  </h1>
                   <h3
-                    className="font-base max-w-sm text-lg text-justify tracking-wide ml-5 mt-5 mb-3"
+                    className="mt-3 font-base max-w-sm ml-3 mb-3 text-justify text-lg tracking-wide"
                     style={{ color: "#000000" }}
                   >
                     Lorem Ipsum is simply dummy text of the printing and
@@ -438,48 +424,48 @@ function App() {
                   </h3>
                 </div>
               </div>
-            </div>
-            <div className="flex flex-wrap">
-              <div className="w-full self-center px-4 mt-20 lg:w-1/2">
-                <img
-                  src={bgImage}
-                  className="bg-cover ml-5 bg-center rounded-lg shadow-xl hover:-translate-y-3 hover:duration-300"
-                  alt="ImageContent"
-                />
-                <h1
-                  className="font-base text-4xl tracking-wide ml-5 mt-5 mb-3"
-                  style={{ color: "#000000" }}
-                >
-                  Ruangan Lorem 3
-                </h1>
-                <h3
-                  className="mt-3 font-base max-w-sm ml-5 text-justify text-lg tracking-wide"
-                  style={{ color: "#000000" }}
-                >
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
-                </h3>
+              <div className="flex justify-end">
+                <div className="w-full self-end z-20 mt-40 lg:w-1/2 border border-gray-200 bg-white shadow-xl rounded-lg  hover:-translate-y-3 hover:duration-300">
+                  <img
+                    src={bgImage}
+                    className="bg-cover bg-center shadow-xl"
+                    alt="ImageContent"
+                  />
+                  <h1
+                    className="font-base text-4xl text-right tracking-wide mt-5 mb-3 mr-3"
+                    style={{ color: "#000000" }}
+                  >
+                    Ruangan Lorem 2
+                  </h1>
+                  <div className="flex justify-end place-items-end">
+                    <h3
+                      className="font-base max-w-sm text-lg text-justify tracking-wide mt-5 mb-3 mr-3"
+                      style={{ color: "#000000" }}
+                    >
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book.
+                    </h3>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="flex justify-end">
-              <div className="w-full self-end px-4 mt-20 lg:w-1/2">
-                <img
-                  src={bgImage}
-                  className="bg-cover ml-5 bg-center rounded-lg shadow-xl hover:-translate-y-3 hover:duration-300"
-                  alt="ImageContent"
-                />
-                <h1
-                  className="font-base text-4xl text-right tracking-wide ml-5 mt-5 mb-3"
-                  style={{ color: "#000000" }}
-                >
-                  Ruangan Lorem 4
-                </h1>
-                <div className="flex justify-end place-items-end">
+              <div className="flex flex-wrap">
+                <div className="w-full self-center z-20 mt-40 lg:w-1/2 ml-5 border border-gray-200 bg-white shadow-xl rounded-lg  hover:-translate-y-3 hover:duration-300">
+                  <img
+                    src={bgImage}
+                    className="bg-cover bg-center w-full shadow-xl"
+                    alt="ImageContent"
+                  />
+                  <h1
+                    className="font-base text-4xl ml-3 tracking-wide mt-5 mb-3"
+                    style={{ color: "#000000" }}
+                  >
+                    Ruangan Lorem 3
+                  </h1>
                   <h3
-                    className="font-base max-w-sm text-lg text-justify tracking-wide ml-5 mt-5 mb-3"
+                    className="mt-3 font-base max-w-sm ml-3 mb-3 text-justify text-lg tracking-wide"
                     style={{ color: "#000000" }}
                   >
                     Lorem Ipsum is simply dummy text of the printing and
@@ -488,6 +474,33 @@ function App() {
                     printer took a galley of type and scrambled it to make a
                     type specimen book.
                   </h3>
+                </div>
+              </div>
+              <div className="flex justify-end">
+                <div className="w-full self-end z-20 mt-40 lg:w-1/2 border border-gray-200 bg-white shadow-xl rounded-lg  hover:-translate-y-3 hover:duration-300">
+                  <img
+                    src={bgImage}
+                    className="bg-cover bg-center shadow-xl"
+                    alt="ImageContent"
+                  />
+                  <h1
+                    className="font-base text-4xl text-right tracking-wide mt-5 mb-3 mr-3"
+                    style={{ color: "#000000" }}
+                  >
+                    Ruangan Lorem 4
+                  </h1>
+                  <div className="flex justify-end place-items-end">
+                    <h3
+                      className="font-base max-w-sm text-lg text-justify tracking-wide mt-5 mb-3 mr-3"
+                      style={{ color: "#000000" }}
+                    >
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book.
+                    </h3>
+                  </div>
                 </div>
               </div>
             </div>
