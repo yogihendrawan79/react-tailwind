@@ -86,7 +86,7 @@ function App() {
             />
           </svg>
         </div>
-        <div className="z-10 absolute top-0 right-0 contrast-50">
+        <div className="z-10 absolute top-0 right-0 brightness-50">
           <img src={bgImage} alt="Gambar" style={{ width: "1080px" }} />
         </div>
         <div className="container">
