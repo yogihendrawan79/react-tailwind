@@ -186,7 +186,7 @@ function App() {
             </div>
           </div>
           <div>
-            <div className="z-10 -mt-16 absolute h-screen">
+            <div className="z-10 -mt-8 absolute h-screen">
               <img src={aksen1} alt="GambarAksen1" />
             </div>
             <div className="w-full px-4">
@@ -288,11 +288,11 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="z-10 mt-24 absolute h-screen">
+          <div className="z-10 mt-[8rem] absolute h-screen">
             <img src={aksen2} alt="GambarAksen2" />
           </div>
           <div className="z-20 relative">
-            <div className="flex flex-wrap mt-64 mb-96">
+            <div className="flex flex-wrap mt-64 mb-[26rem]">
               <div className="w-full self-center px-4 lg:w-1/2">
                 <h1
                   className="font-base text-6xl tracking-wide mb-3 ml-16"
