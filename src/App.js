@@ -130,7 +130,7 @@ function App() {
                 className="mt-3 font-base text-3xl tracking-wide"
                 style={{ color: "#f1f1f1" }}
               >
-                lorem ipsum dulu aja ya....
+                High quality products
               </h3>
             </div>
           </div>
@@ -200,7 +200,7 @@ function App() {
               </div>
             </div>
             <div className="flex justify-center items-center">
-              <div className="grid grid-cols-3 gap-5">
+              <div className="grid grid-cols-2 gap-5">
                 <div className="z-20 wrapper antialiased">
                   <div className="hover:-translate-y-3 hover:duration-300">
                     <div
@@ -339,7 +339,7 @@ function App() {
               </div>
             </div>
             <div className="flex justify-center items-center">
-              <div className="grid grid-cols-3 gap-5">
+              <div className="grid grid-cols-2 gap-5">
                 <div className="z-20 wrapper antialiased">
                   <div className="hover:-translate-y-3 hover:duration-300">
                     <div
@@ -460,7 +460,7 @@ function App() {
                     className="font-base text-4xl ml-3 tracking-wide mt-5 mb-3"
                     style={{ color: "#000000" }}
                   >
-                    Ruangan Lorem 1
+                    Ruang Aplikasi
                   </h1>
                   <h3
                     className="mt-5 font-base max-w-sm ml-3 mb-3 text-justify text-lg tracking-wide"
@@ -485,7 +485,7 @@ function App() {
                     className="font-base text-4xl text-right tracking-wide mt-5 mb-3 mr-3"
                     style={{ color: "#000000" }}
                   >
-                    Ruangan Lorem 2
+                    TIKomPedia
                   </h1>
                   <div className="flex justify-end place-items-end">
                     <h3
@@ -512,7 +512,7 @@ function App() {
                     className="font-base text-4xl ml-3 tracking-wide mt-5 mb-3"
                     style={{ color: "#000000" }}
                   >
-                    Ruangan Lorem 3
+                    Data Center
                   </h1>
                   <h3
                     className="mt-5 font-base max-w-sm ml-3 mb-3 text-justify text-lg tracking-wide"
@@ -537,7 +537,7 @@ function App() {
                     className="font-base text-4xl text-right tracking-wide mt-5 mb-3 mr-3"
                     style={{ color: "#000000" }}
                   >
-                    Ruangan Lorem 4
+                    Lab IOS
                   </h1>
                   <div className="flex justify-end place-items-end">
                     <h3
