@@ -431,7 +431,7 @@ function App() {
       </section>
 
       {/* Ruangan RnD Section */}
-      <section id="ruangan" className="pt-1 pb-96 w-screen inset-0">
+      <section id="ruangan" className="pt-1 pb-[21rem] w-screen inset-0">
         <div className="container">
           <div>
             <div className="z-10 absolute h-screen">
