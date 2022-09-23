@@ -138,50 +138,55 @@ function App() {
       </section>
 
       {/* Bidang Rnd Section */}
-      <section id="bidang" className="pt-36 pb-1 w-screen inset-0">
+      <section id="bidang" className="pt-10 pb-1 w-screen inset-0">
         <div className="container">
-          <div className="w-full px-4">
-            <div className="mx-auto mb-16 max-w-3xl text-center">
-              <h4
-                className="mb-72 text-6xl font-base tracking-wide"
-                style={{ color: "#000000" }}
-              >
-                Bidang Bidang RnD
-              </h4>
-            </div>
+          <div className="z-10 -mt-10 absolute h-screen">
+            <img src={aksen2} alt="GambarAksen2" />
           </div>
-          <div className="flex flex-wrap">
-            <div className="w-full self-center px-4 lg:w-1/2">
-              <img
-                src={bgImage}
-                className="bg-cover ml-5 bg-center rounded-lg shadow-xl hover:-translate-y-3 hover:duration-300"
-                alt="ImageContent"
-              />
+          <div className="z-20 relative">
+            <div className="w-full px-4">
+              <div className="mx-auto mb-16 max-w-3xl text-center">
+                <h4
+                  className="mb-64 text-6xl font-base tracking-wide"
+                  style={{ color: "#000000" }}
+                >
+                  Bidang Bidang RnD
+                </h4>
+              </div>
             </div>
-            <div className="w-full self-end px-4 lg:w-1/2">
-              <h1
-                className="font-base text-6xl tracking-wide mb-8 ml-16"
-                style={{ color: "#000000" }}
-              >
-                Software <span className="block">Development</span>
-              </h1>
-              <h3
-                className="mt-3 font-base max-w-xl ml-16 text-justify text-lg tracking-wide"
-                style={{ color: "#000000" }}
-              >
-                Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya
-                yah Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah
-                isinya yah Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu
-                ajah isinya yah Lorem ipsum dulu ajah isinya yah Lorem ipsum
-                dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah Lorem
-                ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah
-                Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya
-                yah
-              </h3>
+            <div className="flex flex-wrap">
+              <div className="w-full self-center px-4 lg:w-1/2">
+                <img
+                  src={bgImage}
+                  className="bg-cover ml-5 bg-center rounded-lg shadow-xl hover:-translate-y-3 hover:duration-300"
+                  alt="ImageContent"
+                />
+              </div>
+              <div className="w-full self-end px-4 lg:w-1/2">
+                <h1
+                  className="font-base text-6xl tracking-wide mb-8 ml-16"
+                  style={{ color: "#000000" }}
+                >
+                  Software <span className="block">Development</span>
+                </h1>
+                <h3
+                  className="mt-3 font-base max-w-xl ml-16 text-justify text-lg tracking-wide"
+                  style={{ color: "#000000" }}
+                >
+                  Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya
+                  yah Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah
+                  isinya yah Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu
+                  ajah isinya yah Lorem ipsum dulu ajah isinya yah Lorem ipsum
+                  dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah Lorem
+                  ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah
+                  Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya
+                  yah
+                </h3>
+              </div>
             </div>
           </div>
           <div>
-            <div className="z-10 absolute h-screen">
+            <div className="z-10 -mt-16 absolute h-screen">
               <img src={aksen1} alt="GambarAksen1" />
             </div>
             <div className="w-full px-4">
@@ -283,35 +288,40 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap mt-96">
-            <div className="w-full self-center px-4 lg:w-1/2">
-              <h1
-                className="font-base text-6xl tracking-wide mb-3 ml-16"
-                style={{ color: "#000000" }}
-              >
-                Multimedia
-              </h1>
-              <h3
-                className="mt-3 font-base max-w-xl ml-16 text-justify text-lg tracking-wide"
-                style={{ color: "#000000" }}
-              >
-                Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya
-                yah Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah
-                isinya yah Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu
-                ajah isinya yah Lorem ipsum dulu ajah isinya yah Lorem ipsum
-                dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah Lorem
-                ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah
-                Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya
-                yah Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah
-                isinya yah Lorem ipsum dulu ajah isinya yah
-              </h3>
-            </div>
-            <div className="w-full self-end px-4 lg:w-1/2">
-              <img
-                src={bgImage}
-                className="bg-cover ml-5 bg-center rounded-lg shadow-xl hover:-translate-y-3 hover:duration-300"
-                alt="ImageContent"
-              />
+          <div className="z-10 mt-24 absolute h-screen">
+            <img src={aksen2} alt="GambarAksen2" />
+          </div>
+          <div className="z-20 relative">
+            <div className="flex flex-wrap mt-64 mb-96">
+              <div className="w-full self-center px-4 lg:w-1/2">
+                <h1
+                  className="font-base text-6xl tracking-wide mb-3 ml-16"
+                  style={{ color: "#000000" }}
+                >
+                  Multimedia
+                </h1>
+                <h3
+                  className="mt-3 font-base max-w-xl ml-16 text-justify text-lg tracking-wide"
+                  style={{ color: "#000000" }}
+                >
+                  Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya
+                  yah Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah
+                  isinya yah Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu
+                  ajah isinya yah Lorem ipsum dulu ajah isinya yah Lorem ipsum
+                  dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah Lorem
+                  ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya yah
+                  Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah isinya
+                  yah Lorem ipsum dulu ajah isinya yah Lorem ipsum dulu ajah
+                  isinya yah Lorem ipsum dulu ajah isinya yah
+                </h3>
+              </div>
+              <div className="w-full self-end px-4 lg:w-1/2">
+                <img
+                  src={bgImage}
+                  className="bg-cover ml-5 bg-center rounded-lg shadow-xl hover:-translate-y-3 hover:duration-300"
+                  alt="ImageContent"
+                />
+              </div>
             </div>
           </div>
           <div>
@@ -433,7 +443,7 @@ function App() {
             <div className="w-full px-4">
               <div className="mx-auto mb-16 max-w-3xl text-center">
                 <h4
-                  className="mb-56 z-20 mt-96 ml-10 text-5xl font-base tracking-wide"
+                  className="mb-56 z-20 mt-40 ml-10 text-5xl font-base tracking-wide"
                   style={{ color: "#000000" }}
                 >
                   Ruangan Ruangan RnD
