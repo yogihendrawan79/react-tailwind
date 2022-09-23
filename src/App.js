@@ -209,7 +209,7 @@ function App() {
                       />
                     </div>
                     <div className="relative px-4 -mt-16">
-                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas rounded-lg shadow-md">
                         <h3 className="-px-10 text-xl text-center font-semibold mt-3">
                           Robotic
                         </h3>
@@ -230,7 +230,7 @@ function App() {
                       />
                     </div>
                     <div className="relative px-4 -mt-16">
-                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas rounded-lg shadow-md">
                         <h3 className="-px-10 text-xl text-center font-semibold mt-3">
                           Robotic
                         </h3>
@@ -251,7 +251,7 @@ function App() {
                       />
                     </div>
                     <div className="relative px-4 -mt-16">
-                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas rounded-lg shadow-md">
                         <h3 className="-px-10 text-xl text-center font-semibold mt-3">
                           Robotic
                         </h3>
@@ -272,7 +272,7 @@ function App() {
                       />
                     </div>
                     <div className="relative px-4 -mt-16">
-                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas rounded-lg shadow-md">
                         <h3 className="-px-10 text-xl text-center font-semibold mt-3">
                           Robotic
                         </h3>
@@ -343,7 +343,7 @@ function App() {
                       />
                     </div>
                     <div className="relative px-4 -mt-16">
-                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas rounded-lg shadow-md">
                         <h3 className="-px-10 text-xl text-center font-semibold mt-3">
                           Metaverse
                         </h3>
@@ -364,7 +364,7 @@ function App() {
                       />
                     </div>
                     <div className="relative px-4 -mt-16">
-                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas rounded-lg shadow-md">
                         <h3 className="-px-10 text-xl text-center font-semibold mt-3">
                           3D Animation
                         </h3>
@@ -385,7 +385,7 @@ function App() {
                       />
                     </div>
                     <div className="relative px-4 -mt-16">
-                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas rounded-lg shadow-md">
                         <h3 className="-px-10 text-xl text-center font-semibold mt-3">
                           Website
                         </h3>
@@ -406,7 +406,7 @@ function App() {
                       />
                     </div>
                     <div className="relative px-4 -mt-16">
-                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas">
+                      <div className="px-16 py-14 mb-5 bg-opacity-20 backdrop-blur-2xl bg-warnas rounded-lg shadow-md">
                         <h3 className="-px-10 text-xl text-center font-semibold mt-3">
                           UI Design
                         </h3>
