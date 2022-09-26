@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       {/* Header */}
-      <header className="absolute top-0 left-0 z-20 flex w-full items-center">
+      <header className="absolute -mx-11 top-0 left-0 z-20 flex w-full items-center">
         <div className="container">
           <div className="relative flex items-center justify-between">
             <div className="px-4">
@@ -65,7 +65,7 @@ function App() {
       >
         <div className="container">
           <div className="flex flex-wrap">
-            <div className="z-10 ml-10 absolute bottom-0 left-0">
+            <div className="z-10 -ml-20 absolute mt-[200px]">
               <svg
                 width="15"
                 height="229"
