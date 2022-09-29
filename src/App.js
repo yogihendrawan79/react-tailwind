@@ -13,7 +13,7 @@ function App() {
             <div className="px-4">
               <a
                 href="/"
-                className="block ml-5 py-6 text-lg font-bold text-white hover:-translate-x-3 hover:duration-300"
+                className="block ml-5 py-6 text-lg font-bold text-white transition ease-in-out duration-300 hover:-translate-x-3"
               >
                 <svg
                   width="40"
@@ -33,7 +33,7 @@ function App() {
               </a>
             </div>
             <div className="absolute lg:static lg:block lg:max-w-full">
-              <button className="hover:scale-150 hover:duration-300">
+              <button className="transition ease-in-out duration-300 hover:scale-150">
                 <svg
                   width="40"
                   height="40"
