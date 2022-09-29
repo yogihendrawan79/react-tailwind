@@ -158,7 +158,7 @@ function App() {
               <div className="w-full self-center px-4 lg:w-1/2">
                 <img
                   src={bgImage}
-                  className="bg-cover ml-5 bg-center rounded-lg shadow-xl hover:-translate-y-3 hover:duration-300"
+                  className="bg-cover ml-5 bg-center rounded-lg shadow-xl transition ease-in-out hover:shadow-blue-500 hover:-translate-y-3 duration-300"
                   alt="ImageContent"
                 />
               </div>
@@ -202,7 +202,7 @@ function App() {
             <div className="flex justify-center items-center">
               <div className="grid grid-cols-2 gap-5">
                 <div className="z-20 wrapper antialiased">
-                  <div className="hover:-translate-y-3 hover:duration-300">
+                  <div className="transition ease-in-out duration-300 hover:-translate-y-3">
                     <div
                       className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
@@ -223,7 +223,7 @@ function App() {
                   </div>
                 </div>
                 <div className="z-20 wrapper antialiased">
-                  <div className="hover:-translate-y-3 hover:duration-300">
+                  <div className="transition ease-in-out duration-300 hover:-translate-y-3">
                     <div
                       className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
@@ -244,7 +244,7 @@ function App() {
                   </div>
                 </div>
                 <div className="z-20 wrapper antialiased">
-                  <div className="hover:-translate-y-3 hover:duration-300">
+                  <div className="transition ease-in-out duration-300 hover:-translate-y-3">
                     <div
                       className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
@@ -265,7 +265,7 @@ function App() {
                   </div>
                 </div>
                 <div className="z-20 wrapper antialiased">
-                  <div className="hover:-translate-y-3 hover:duration-300">
+                  <div className="transition ease-in-out duration-300 hover:-translate-y-3">
                     <div
                       className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
@@ -318,7 +318,7 @@ function App() {
               <div className="w-full self-end px-4 lg:w-1/2">
                 <img
                   src={bgImage}
-                  className="bg-cover ml-5 bg-center rounded-lg shadow-xl hover:-translate-y-3 hover:duration-300"
+                  className="bg-cover ml-5 bg-center rounded-lg shadow-xl transition ease-in-out hover:shadow-blue-500 hover:-translate-y-3 duration-300"
                   alt="ImageContent"
                 />
               </div>
@@ -341,7 +341,7 @@ function App() {
             <div className="flex justify-center items-center">
               <div className="grid grid-cols-2 gap-5">
                 <div className="z-20 wrapper antialiased">
-                  <div className="hover:-translate-y-3 hover:duration-300">
+                  <div className="transition ease-in-out duration-300 hover:-translate-y-3">
                     <div
                       className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
@@ -362,7 +362,7 @@ function App() {
                   </div>
                 </div>
                 <div className="z-20 wrapper antialiased">
-                  <div className="hover:-translate-y-3 hover:duration-300">
+                  <div className="transition ease-in-out duration-300 hover:-translate-y-3">
                     <div
                       className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
@@ -383,7 +383,7 @@ function App() {
                   </div>
                 </div>
                 <div className="z-20 wrapper antialiased">
-                  <div className="hover:-translate-y-3 hover:duration-300">
+                  <div className="transition ease-in-out duration-300 hover:-translate-y-3">
                     <div
                       className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
@@ -404,7 +404,7 @@ function App() {
                   </div>
                 </div>
                 <div className="z-20 wrapper antialiased">
-                  <div className="hover:-translate-y-3 hover:duration-300">
+                  <div className="transition ease-in-out duration-300 hover:-translate-y-3">
                     <div
                       className="block border border-gray-200"
                       style={{ background: "#ADADAD" }}
@@ -450,7 +450,7 @@ function App() {
                 </h4>
               </div>
               <div className="flex flex-wrap">
-                <div className="w-full z-20 self-center -mt-24 lg:w-1/2 ml-5 border border-gray-200 bg-white shadow-xl rounded-lg  hover:-translate-y-3 hover:duration-300">
+                <div className="w-full z-20 self-center -mt-24 lg:w-1/2 ml-5 border border-gray-200 bg-white shadow-xl rounded-lg transition ease-in-out duration-300 hover:-translate-y-3 hover:shadow-blue-500">
                   <img
                     src={bgImage}
                     className="bg-cover bg-center w-full shadow-xl"
@@ -475,7 +475,7 @@ function App() {
                 </div>
               </div>
               <div className="flex justify-end">
-                <div className="w-full self-end z-20 mt-40 lg:w-1/2 border border-gray-200 bg-white shadow-xl rounded-lg  hover:-translate-y-3 hover:duration-300">
+                <div className="w-full self-end z-20 mt-40 lg:w-1/2 border border-gray-200 bg-white shadow-xl rounded-lg transition ease-in-out duration-300 hover:-translate-y-3 hover:shadow-blue-500">
                   <img
                     src={bgImage}
                     className="bg-cover bg-center shadow-xl"
@@ -502,7 +502,7 @@ function App() {
                 </div>
               </div>
               <div className="flex flex-wrap">
-                <div className="w-full self-center z-20 mt-40 lg:w-1/2 ml-5 border border-gray-200 bg-white shadow-xl rounded-lg  hover:-translate-y-3 hover:duration-300">
+                <div className="w-full self-center z-20 mt-40 lg:w-1/2 ml-5 border border-gray-200 bg-white shadow-xl rounded-lg transition ease-in-out duration-300 hover:-translate-y-3 hover:shadow-blue-500">
                   <img
                     src={bgImage}
                     className="bg-cover bg-center w-full shadow-xl"
@@ -527,7 +527,7 @@ function App() {
                 </div>
               </div>
               <div className="flex justify-end">
-                <div className="w-full self-end z-20 mt-40 lg:w-1/2 border border-gray-200 bg-white shadow-xl rounded-lg  hover:-translate-y-3 hover:duration-300">
+                <div className="w-full self-end z-20 mt-40 lg:w-1/2 border border-gray-200 bg-white shadow-xl rounded-lg transiton ease-in-out duration-300 hover:-translate-y-3 hover:shadow-blue-500">
                   <img
                     src={bgImage}
                     className="bg-cover bg-center shadow-xl"
