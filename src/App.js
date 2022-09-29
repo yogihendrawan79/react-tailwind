@@ -1,6 +1,8 @@
 import bgImage from "./assets/imgContent.jpg";
 import aksen3 from "./assets/aksen3.png";
+import aksen3a from "./assets/aksen3a.png";
 import aksen4 from "./assets/aksen4.png";
+import aksen4a from "./assets/aksen4a.png";
 import aksenAkhir from "./assets/aksenAkhir.png";
 import gradasi from "./assets/gradasi.svg";
 import researchIcon from "./assets/researchIcon.png";
@@ -153,6 +155,12 @@ function App() {
           <div className="z-10 -mt-[445px] -mx-11 absolute h-screen">
             <img src={aksen3} alt="GambarAksen2" />
           </div>
+          <div className="z-10 mt-[30rem] mx-[22rem] absolute h-screen">
+            <img src={aksen3a} alt="GambarAksen" style={{ width: "1500px" }} />
+          </div>
+          <div className="z-10 mt-[75rem] mx-[22rem] absolute h-screen">
+            <img src={aksen4a} alt="GambarAksen" style={{ width: "1500px" }} />
+          </div>
           <div className="z-20 relative">
             <div className="w-full px-4">
               <div className="mx-auto mb-16 max-w-3xl text-center">
@@ -300,6 +308,12 @@ function App() {
           </div>
           <div className="z-10 -mt-[146px] -mx-11 absolute h-screen">
             <img src={aksen3} alt="GambarAksen2" />
+          </div>
+          <div className="z-10 mt-[40rem] mx-[22rem] absolute h-screen">
+            <img src={aksen3a} alt="GambarAksen" style={{ width: "1500px" }} />
+          </div>
+          <div className="z-10 mt-[90rem] mx-[22rem] absolute h-screen">
+            <img src={aksen4a} alt="GambarAksen" style={{ width: "1500px" }} />
           </div>
           <div className="z-20 relative">
             <div className="flex flex-wrap mt-72 mb-[30rem]">
@@ -452,6 +466,34 @@ function App() {
                 src={aksenAkhir}
                 alt="GambarAksen2"
                 className="-mt-[675px]"
+              />
+            </div>
+            <div className="z-10 mt-[30rem] mx-[22rem] absolute h-screen">
+              <img
+                src={aksen3a}
+                alt="GambarAksen"
+                style={{ width: "1500px" }}
+              />
+            </div>
+            <div className="z-10 mt-[90rem] mx-[22rem] absolute h-screen">
+              <img
+                src={aksen4a}
+                alt="GambarAksen"
+                style={{ width: "1500px" }}
+              />
+            </div>
+            <div className="z-10 mt-[150rem] mx-[22rem] absolute h-screen">
+              <img
+                src={aksen3a}
+                alt="GambarAksen"
+                style={{ width: "1500px" }}
+              />
+            </div>
+            <div className="z-10 mt-[205rem] mx-[22rem] absolute h-screen">
+              <img
+                src={aksen4a}
+                alt="GambarAksen"
+                style={{ width: "1500px" }}
               />
             </div>
             <div className="w-full px-4">
