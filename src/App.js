@@ -1,6 +1,7 @@
 import bgImage from "./assets/imgContent.jpg";
-import aksen1 from "./assets/aksen1.svg";
-import aksen2 from "./assets/aksen2.svg";
+import aksen3 from "./assets/aksen3.png";
+import aksen4 from "./assets/aksen4.png";
+import aksenAkhir from "./assets/aksenAkhir.png";
 import gradasi from "./assets/gradasi.svg";
 import researchIcon from "./assets/researchIcon.png";
 import "./App.css";
@@ -149,8 +150,8 @@ function App() {
       {/* Bidang Rnd Section */}
       <section id="bidang" className="pt-10 pb-1 w-screen inset-0">
         <div className="container">
-          <div className="z-10 -mt-10 -mx-11 absolute h-screen">
-            <img src={aksen2} alt="GambarAksen2" />
+          <div className="z-10 -mt-[445px] -mx-11 absolute h-screen">
+            <img src={aksen3} alt="GambarAksen2" />
           </div>
           <div className="z-20 relative">
             <div className="w-full px-4">
@@ -195,8 +196,8 @@ function App() {
             </div>
           </div>
           <div>
-            <div className="z-10 mt-0.5 -mx-11 absolute h-screen">
-              <img src={aksen1} alt="GambarAksen1" />
+            <div className="z-10 -mt-[302px] -mx-11 absolute h-screen">
+              <img src={aksen4} alt="GambarAksen1" />
             </div>
             <div className="w-full px-4">
               <div className="mx-auto mt-48 mb-16 max-w-xl text-center">
@@ -297,8 +298,8 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="z-10 mt-[12rem] -mx-11 absolute h-screen">
-            <img src={aksen2} alt="GambarAksen2" />
+          <div className="z-10 -mt-[146px] -mx-11 absolute h-screen">
+            <img src={aksen3} alt="GambarAksen2" />
           </div>
           <div className="z-20 relative">
             <div className="flex flex-wrap mt-72 mb-[30rem]">
@@ -334,8 +335,8 @@ function App() {
             </div>
           </div>
           <div>
-            <div className="z-10 -mt-1 -mx-11 absolute h-screen">
-              <img src={aksen1} alt="gambar" />
+            <div className="z-10 -mt-[240px] -mx-11 absolute h-screen">
+              <img src={aksen4} alt="gambar" />
             </div>
             <div className="w-full px-4">
               <div className="mx-auto mb-16 max-w-xl text-center">
@@ -440,14 +441,18 @@ function App() {
       </section>
 
       {/* Ruangan RnD Section */}
-      <section id="ruangan" className="pt-1 pb-[458px] w-screen inset-0">
+      <section id="ruangan" className="pt-1 pb-[740px] w-screen inset-0">
         <div className="container">
           <div>
             <div className="z-10 -mx-11 absolute h-screen">
-              <img src={aksen1} alt="GambarAksen1" />
-              <img src={aksen2} alt="GambarAksen2" />
-              <img src={aksen1} alt="GambarAksen1" />
-              <img src={aksen2} alt="GambarAksen2" />
+              <img src={aksen3} alt="GambarAksen1" className="-mt-[268px]" />
+              <img src={aksen4} alt="GambarAksen2" className="-mt-[675px]" />
+              <img src={aksen3} alt="GambarAksen1" className="-mt-[808px]" />
+              <img
+                src={aksenAkhir}
+                alt="GambarAksen2"
+                className="-mt-[675px]"
+              />
             </div>
             <div className="w-full px-4">
               <div className="mx-auto mb-16 max-w-3xl text-center">
