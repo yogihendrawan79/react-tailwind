@@ -1,6 +1,8 @@
 import bgImage from "./assets/imgContent.jpg";
 import aksen1 from "./assets/aksen1.svg";
 import aksen2 from "./assets/aksen2.svg";
+import gradasi from "./assets/gradasi.svg";
+import researchIcon from "./assets/researchIcon.png";
 import "./App.css";
 
 function App() {
@@ -88,8 +90,15 @@ function App() {
                 />
               </svg>
             </div>
-            <div className="absolute ml-[8rem] w-full items-center z-10 top-0 brightness-50">
-              <img src={bgImage} alt="Gambar" style={{ width: "1080px" }} />
+            <div className="absolute ml-[15rem] w-full items-center z-10 top-0">
+              <img src={gradasi} alt="Gambar" />
+              <div className="absolute top-0 ml-[31rem] mt-[8rem] w-full items-center z-20">
+                <img
+                  src={researchIcon}
+                  alt="GambarResearch"
+                  style={{ width: "406px" }}
+                />
+              </div>
             </div>
             <div className="w-full z-10 self-center px-4 lg:w-1/2">
               <h1
